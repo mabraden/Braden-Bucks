@@ -3,6 +3,14 @@ import hashlib
 
 LEDGER_FILE = "ledger.json"
 
+def load_ledger():
+    with open(LEDGER_FILE, "r") as f:
+        return json.load(f)
+
+def save_ledger(data):
+    with open(LEDGER_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+
 def hash_transaction(tx):
     tx_string = f"{tx['from']}{tx['to']}{tx['amount']}"
     return hashlib.sha256(tx_string.encode()).hexdigest()
