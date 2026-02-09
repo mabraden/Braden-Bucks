@@ -3,8 +3,8 @@
     "Braden": 90,
     "George": 10,
     "Emiliano": 10,
-    "Claire": 10,
-    "Simonne": 10,
+    "Claire": 15,
+    "Simonne": 5,
     "Jose": 20,
     "Paolo": 10,
     "David": 10
@@ -14,6 +14,11 @@
       "from": "Braden",
       "to": "Jose",
       "amount": 10
+    },
+    {
+      "from": "Simonne",
+      "to": "Claire",
+      "amount": 5
     }
   ]
 }
