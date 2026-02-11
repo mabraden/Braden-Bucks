@@ -10,4 +10,5 @@ def edit_json(data,filename):
     file.truncate()
 transaction={"from":"Braden","to":"Simonne","amount":15}
 edit_json(transaction,"ledger.json")
+#This is a test of the gitting
 
