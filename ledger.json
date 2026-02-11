@@ -1,30 +1,35 @@
 {
-  "balances": {
-    "Braden": 75,
-    "George": 10,
-    "Emiliano": 10,
-    "Claire": 15,
-    "Simonne": 5,
-    "Jose": 20,
-    "Paolo": 25,
-    "David": 10
-  },
-  "transactions": [
-    {
-      "from": "Braden",
-      "to": "Jose",
-      "amount": 10
+    "balances": {
+        "Braden": 75,
+        "George": 10,
+        "Emiliano": 10,
+        "Claire": 15,
+        "Simonne": 5,
+        "Jose": 20,
+        "Paolo": 25,
+        "David": 10
     },
-    {
-      "from": "Simonne",
-      "to": "Claire",
-      "amount": 5
-    },
-    {
-      "from": "Braden",
-      "to": "Paolo",
-      "amount": 15,
-      "hash": "124b71625321320426b65d9edf728e6707b1b78612442fec23de0f1ed40b9230"
-    }
-  ]
+    "transactions": [
+        {
+            "from": "Braden",
+            "to": "Jose",
+            "amount": 10
+        },
+        {
+            "from": "Simonne",
+            "to": "Claire",
+            "amount": 5
+        },
+        {
+            "from": "Braden",
+            "to": "Paolo",
+            "amount": 15,
+            "hash": "124b71625321320426b65d9edf728e6707b1b78612442fec23de0f1ed40b9230"
+        },
+        {
+            "from": "Braden",
+            "to": "Simonne",
+            "amount": 15
+        }
+    ]
 }

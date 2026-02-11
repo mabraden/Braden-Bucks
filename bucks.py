@@ -2,7 +2,7 @@ import json
 def print_json(name):
     print(json.dumps(json.load(open(name,'r'))))
 def edit_json(data,filename):
-    file=open(filename,'r')
+    file=open(filename,'r+')
     filedata=json.load(file)
     filedata["transactions"].append(data)
     file.seek(0)
