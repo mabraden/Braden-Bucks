@@ -1,8 +1,7 @@
 import json
-
-file_path = 'ledger.json'
-
-file=open(file_path, 'r')
-data=json.load(file)
-print("done")
-print(json.dumps(data,indent=4))
+def open_file(name):
+    file=open(name, 'r')
+    return file
+def print_json(name):
+    print(json.dumps(json.load(open_file(name))))
+print_json("ledger.json")
