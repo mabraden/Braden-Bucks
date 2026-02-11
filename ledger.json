@@ -19,17 +19,6 @@
             "from": "Simonne",
             "to": "Claire",
             "amount": 5
-        },
-        {
-            "from": "Braden",
-            "to": "Paolo",
-            "amount": 15,
-            "hash": "124b71625321320426b65d9edf728e6707b1b78612442fec23de0f1ed40b9230"
-        },
-        {
-            "from": "Braden",
-            "to": "Simonne",
-            "amount": 15
         }
     ]
 }
