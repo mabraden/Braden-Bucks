@@ -2,11 +2,11 @@
     "balances": {
         "Braden": 0,
         "George": 70,
-        "Emiliano": 10,
+        "Emiliano": 15,
         "Claire": 10,
         "Simonne": 5,
         "Jose": 25,
-        "Paolo": 25,
+        "Paolo": 20,
         "David": 10
     },
     "transactions": [
@@ -123,6 +123,11 @@
         {
             "from": "Claire",
             "to": "David",
+            "amount": 5
+        },
+        {
+            "from": "Paolo",
+            "to": "Emiliano",
             "amount": 5
         }
     ]
