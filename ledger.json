@@ -5,9 +5,9 @@
         "Emiliano": 10,
         "Claire": 15,
         "Simonne": 5,
-        "Jose": 20,
+        "Jose": 25,
         "Paolo": 25,
-        "David": 10
+        "David": 5
     },
     "transactions": [
         {
@@ -93,6 +93,11 @@
         {
             "from": "Jose",
             "to": "David",
+            "amount": 5
+        },
+        {
+            "from": "David",
+            "to": "Jose",
             "amount": 5
         },
         {
