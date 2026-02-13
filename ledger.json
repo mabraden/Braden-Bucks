@@ -1,9 +1,9 @@
 {
     "balances": {
-        "Braden": 0,
+        "Braden": 5,
         "George": 70,
         "Emiliano": 15,
-        "Claire": 10,
+        "Claire": 5,
         "Simonne": 5,
         "Jose": 25,
         "Paolo": 20,
@@ -130,14 +130,19 @@
             "to": "Emiliano",
             "amount": 5
         },
-                {
+        {
             "from": "Emiliano",
             "to": "Paolo",
             "amount": 5
         },
-                        {
+        {
             "from": "Braden",
             "to": "Paolo",
+            "amount": 5
+        },
+        {
+            "from": "Claire",
+            "to": "Braden",
             "amount": 5
         }
     ]
