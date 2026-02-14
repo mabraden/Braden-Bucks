@@ -6,8 +6,8 @@
         "Claire": 0,
         "Simonne": 10,
         "Jose": 0,
-        "Paolo": 45,
-        "David": 10
+        "Paolo": 50,
+        "David": 5
     },
     "transactions": [
         {
@@ -172,6 +172,11 @@
         },
         {
             "from": "Jose",
+            "to": "Paolo",
+            "amount": 5
+        },
+        {
+            "from": "David",
             "to": "Paolo",
             "amount": 5
         }
